@@ -44,6 +44,6 @@ jobs:
   currentDay:
     runs-on: ubuntu-latest
     steps:
-    - uses: ./.github/actions/print-current-day
+    - uses: .github/actions/print-current-day@main
     
   
