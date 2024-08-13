@@ -1,8 +1,0 @@
-
-name: 'Print Current Day Action'
-description: 'Prints the current day'
-runs:
-  using: 'composite'
-  steps:
-    - run: echo "Invoked from main workflow and be happy because Today is $(date +%A)"
-      shell: bash
