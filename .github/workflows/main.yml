@@ -31,10 +31,19 @@ jobs:
         path: target/*.jar
         
   customaction:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: nvaishnav/custom-actions/echo-message-action@main
+
+  echomessage:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Printing message from main workflow"
+      shell: bash
+
+  currentDay:
+    run-on: ubuntu-latest
+    steps:
+    - uses: ./.github/actions/print-current-day
     
   
