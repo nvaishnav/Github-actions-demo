@@ -1,7 +1,0 @@
-name: 'Print Current Day Action'
-description: 'Prints the current day'
-runs:
-  using: 'composite'
-  steps:
-    - run: echo "Today is $(date +%A)"
-      shell: bash
