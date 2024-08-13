@@ -25,3 +25,12 @@ jobs:
       with:
         name: my-artifact
         path: target/*.jar
+        
+  customaction:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: nvaishnav/custom-actions/echo-message-action@main
+    
+  
