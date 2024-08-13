@@ -42,7 +42,7 @@ jobs:
       shell: bash
 
   currentDay:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - uses: ./.github/actions/print-current-day
     
