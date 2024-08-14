@@ -38,7 +38,7 @@ jobs:
   echomessage:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "Printing message from main workflow"
+    - run: echo "Printing message from main workflow updated"
       shell: bash
 
   currentDay:
