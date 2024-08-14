@@ -41,7 +41,7 @@ jobs:
       shell: bash
 
   currentDay:
-    runs-on: ubuntu-latest
+    run-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: ./.github/actions/print-current-day
