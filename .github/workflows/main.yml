@@ -1,8 +1,7 @@
 name: Java CI
 
 on:
-  push:
-    branches: [ "main" ]
+  
     
   workflow_dispatch:
 
@@ -38,7 +37,7 @@ jobs:
   echomessage:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "Printing message from main workflow updated"
+    - run: echo "Printing message from main workflow updated version1"
       shell: bash
 
   currentDay:
